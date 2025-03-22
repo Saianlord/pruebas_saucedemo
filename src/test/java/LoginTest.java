@@ -19,17 +19,10 @@ import java.time.Duration;
 public class LoginTest extends TestBase{
 
     private WebDriver driver;
-//    private static ExtentReports extent;
-//    private static ExtentSparkReporter sparkReporter;
+
     private static ExtentTest test;
 
 
-//    @BeforeAll
-//    public static void beforeAll(){
-//        extent = new ExtentReports();
-//        sparkReporter = new ExtentSparkReporter("./test-output/ExtentReport.html");
-//        extent.attachReporter(sparkReporter);
-//    }
 
     @BeforeEach
     public void setUp() {
@@ -202,10 +195,5 @@ public class LoginTest extends TestBase{
         }
 
     }
-
-//    @AfterAll
-//    public static void afterAll(){
-//        extent.flush();
-//    }
 
 }
